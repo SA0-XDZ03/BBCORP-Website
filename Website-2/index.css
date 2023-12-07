@@ -1,0 +1,108 @@
+/***
+Red: #cf291d
+Dark-Red: #b50717
+Dark-Black: #131313
+Black: #1d1d1d
+Dark-Gray: #bfbfbf
+Gray: #ececec
+
+font-family: 'Arimo', sans-serif;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Lato', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Questrial', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif;
+font-family: 'Rubik', sans-serif;
+***/
+
+/*@font-face {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Yantramanav', sans-serif;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Yantramanav:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&family=DM+Sans&family=Inconsolata:wght@300;400;500&family=Lato&family=Libre+Franklin:wght@300;400&family=Manrope:wght@200;400;500;600&family=Poppins:wght@100;200;300;400;500;600&family=Questrial&family=Raleway&family=Roboto+Condensed:wght@300;400;700&family=Roboto+Mono:wght@300;400&family=Roboto+Slab&family=Rubik:wght@300;400&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "DM Sans";
+}
+
+p, li, .navbar, .btn, .tab-content {
+    font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron-modification {
+    background: url('../Illustrations/BGWallpaper.png') no-repeat;
+    background-size: auto;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+#contentBorder {position:relative}
+#contentBorder:before, #contentBorder:after, #contentBorder>:first-child:before, #contentBorder>:first-child:after {
+    position:absolute; content:' ';
+    width:12px; height:12px;
+    border-color:white; /* or whatever colour */
+    border-style:solid; /* or whatever style */
+}
+#contentBorder:before {bottom:0;left:0;border-width: 0px 0 2px 2px}
+#contentBorder:after {top:0;right:0;border-width: 2px 2px 0 0}
+#contentBorder>:first-child:before {top:0;right:0;border-width: 0 2px 2px 0}
+#contentBorder>:first-child:after {bottom:0;left:0;border-width: 0 0 2px 2px}
+
+/* CSS */
+.button-59 {
+  align-items: center;
+  background-color: #000;
+  border: 2px solid tomato;
+  box-sizing: border-box;
+  color: tomato;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-59:focus {
+  color: white;
+}
+
+.button-59:hover {
+  border-color: tomato;
+  color: black;
+  fill: black;
+  background-color: tomato;
+}
+
+.button-59:active {
+  border-color: tomato;
+  color: tomato;
+  fill: tomato;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}
