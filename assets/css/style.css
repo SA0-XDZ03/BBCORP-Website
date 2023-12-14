@@ -160,3 +160,20 @@ font-family: 'Rubik', sans-serif;
     border: 2px solid #cf291d !important;
     color: white;
   }
+
+  .linkStyle {
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+    border-radius: 4%;
+    padding: 1% 4%;
+    font-family: 'Lato';
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+
+  .linkStyle:hover{
+    background-color: #000000;
+    color: #cf291d;
+    text-decoration: none;
+  }
