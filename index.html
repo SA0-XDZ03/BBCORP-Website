@@ -1,219 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Beyond Beacon Corporation</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-  <!-- GIF Image Background -->
-  <div class="gif-bg"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome | Beyond Beacon Corp.</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <!-- GIF Image Background -->
+        <div class="gif-bg"></div>
 
-  <!-- Particles.js Overlay -->
-  <div id="particles-js">
+        <!-- Particles.js Overlay -->
+        <div id="particles-js">
 
-  </div>
-  <!-- Top Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-rich-black">
-    <a class="navbar-brand" href="#"><img src="assets/logo/OnlyLogo.png" alt="Logo" style="height: 60px;"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown mr-4">
-          <a href="./assets/pages/Company.html" class="nav-link" role="button">Company</a>
-          <!-- <a class="nav-link dropdown-toggle" href="./assets/pages/Company.html" id="companyDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Company
-          </a>
-          <div class="dropdown-menu" aria-labelledby="companyDropdown">
-            <a class="dropdown-item" href="./assets/pages/Company.html">Our Story</a>
-            <a class="dropdown-item" href="./assets/pages/Company.html">Executive Team</a>
-            <a class="dropdown-item" href="./assets/pages/Company.html">Latest News</a>
-          </div> -->
-        </li>
-        <li class="nav-item dropdown mr-4">
-          <a class="nav-link dropdown-toggle" href="./assets/pages/Products.html" id="productsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Products & Services
-          </a>
-          <div class="dropdown-menu" aria-labelledby="productsDropdown">
-            <h4 class="p-2" style="color: #cf291d;">Products</h4>
-            <a class="dropdown-item" href="./assets/pages/Products.html">Strategic Intelligence Dashboard <span style="color: #cf291d;">(SIN-D)</span></a>
-            <a class="dropdown-item" href="./assets/pages/Products.html">Adversary Breach & Attack Simulation <span style="color: #cf291d;">(ABAS)</span></a>
-            <a class="dropdown-item" href="./assets/pages/Products.html">Anti-Malware Toolkit <span style="color: #cf291d;">(AMT)</span></a>
-            <a class="dropdown-item" href="./assets/pages/Products.html">WebApp Security Toolkit <span style="color: #cf291d;">(WAST)</span></a>
-            <a class="dropdown-item" href="./assets/pages/Products.html">Integrated Search Engine <span style="color: #cf291d;">(ISE)</span></a>
-            <a class="dropdown-item" href="./assets/pages/Products.html">BBx Browser <span style="color: #cf291d;">(BBxB)</span></a>
-            <hr style="background-color:#cf291d;">
-            <h4 class="p-2" style="color: #cf291d;">Services</h4>
-            <a href="/assets/pages/academic-reports.html  " class="dropdown-item">Education Sector</a>
-            <a href="./assets/pages/Sector.html" class="dropdown-item">Health Sector</a>
-            <a href="./assets/pages/Sector.html" class="dropdown-item">Financial Sector</a>
-            <a href="./assets/pages/Sector.html" class="dropdown-item">Energy Sector</a>
-            <a href="./assets/pages/Sector.html" class="dropdown-item">Corporate Sector</a>            
-            <a href="./assets/pages/Sector.html" class="dropdown-item">Law Enforcement Agencies</a>
-          </div>
-          <hr>
-        </li>
-        <li class="nav-item dropdown mr-4">
-          <a class="nav-link dropdown-toggle" href="./assets/pages/Resources.html" id="resourcesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Community
-          </a>
-          <div class="dropdown-menu" aria-labelledby="resourcesDropdown">
-            <a class="dropdown-item" href="https://communitybeyondbeacon.wordpress.com">Research Blog</a>
-            <a class="dropdown-item" href="./assets/pages/Resources.html">Whitepapers & Resources</a>
-            <!-- <a class="dropdown-item" href="./assets/pages/Resources.html">Advanced Persistent Threats <span style="color: #cf291d;"><b>(APT-R)</b></span></a>
-            <a class="dropdown-item" href="./assets/pages/Resources.html">Intelligence & Security Operations <span style="color: #cf291d;"><b>(ISO-R)</b></span></a> -->
-          </div>
-        </li>
-        <!-- <li class="nav-item dropdown">
-          <a href="./assets/pages/Sector.html" class="nav-link dropdown-toggle" id="academicDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sector</a>
-          <div class="dropdown-menu" aria-labelledby="academicDropdown">
-          </div>
-        </li> -->
-        <li class="nav-item dropdown mr-4">
-          <a href="./assets/pages/Contact.html" role="button" class="nav-link">Contact</a>
-          <!-- <a class="nav-link dropdown-toggle" href="./assets/pages/Contact.html" id="contactDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Contact
-          </a> -->
-          <!-- <div class="dropdown-menu" aria-labelledby="contactDropdown">
-            <a class="dropdown-item" href="./assets/pages/Contact.html">Book your Demo</a>
-            <a class="dropdown-item" href="./assets/pages/Contact.html">Social Media</a>
-          </div> -->
-        </li>
-      </ul>
-    </div>
-  </nav>
+        </div>
 
-  <!-- Your website content goes here -->
-    <!-- Content Area -->
-    <div class="container content">
-      <div class="heading-container">
-        <h2 class="heading">Security Redefined: Pioneering Intelligence-Driven Cybersecurity</h2>
-        <p class="description">Harnessing intelligence to fortify digital realms, protect data, and ensure operational resilience</p>
-        <a href="./assets/pages/Products.html"><button class="custom-button" style="border-color: red; text-decoration: none;">Get Started<i class="fa fa-arrow-right"></i></button></a>
-      </div>
-    </div>
-  
-      
-<!-- Second Responsive Division -->
-<div class="parallax-container">
-  <!-- <div class="parallax-content" style="background-color: #cf291d;;">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 ">
-          <div class="card div-card">
-            <div class="card-body">
-              <h5 class="card-title" style="color: black;"><b>APT-R: APT29</b></h5>
-              <p class="card-text" style="color: #131313;">Russian Foreign Intelligence Service (SVR) Threat Group</p>
-              <a href="./assets/reports/APTR/Russia/APTR-RU-APT29.pdf" class="linkStyle">// Download Report</a>
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html"><img src="assets/logos/OnlyLogo.png" alt="Logo" style="height: 60px;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown mr-4">
+                        <a href="assets/pages/company.html" class="nav-link" role="button">Company</a>
+                    </li>
+                    <li class="nav-item dropdown mr-4">
+                        <a class="nav-link dropdown-toggle" href="assets/pages/pros-servs.html" id="productsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products & Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="productsDropdown">
+                            <h4 class="p-2" style="color: #cf291d;">Products</h4>
+                            <a class="dropdown-item" href="assets/pages/pros-servs.html">Strategic Intelligence Dashboard <span style="color: #cf291d;">(SIN-D)</span></a>
+                            <a class="dropdown-item" href="assets/pages/pros-servs.html">Adversary Breach & Attack Simulation <span style="color: #cf291d;">(ABAS)</span></a>
+                            <a class="dropdown-item" href="assets/pages/pros-servs.html">Anti-Malware Toolkit <span style="color: #cf291d;">(AMT)</span></a>
+                            <a class="dropdown-item" href="assets/pages/pros-servs.html">WebApp Security Toolkit <span style="color: #cf291d;">(WAST)</span></a>
+                            <a class="dropdown-item" href="assets/pages/pros-servs.html">Integrated Search Engine <span style="color: #cf291d;">(ISE)</span></a>
+                            <a class="dropdown-item" href="assets/pages/pros-servs.html">BBx Browser <span style="color: #cf291d;">(BBxB)</span></a>
+                            
+                            <hr style="background-color:#cf291d;">
+                            
+                            <h4 class="p-2" style="color: #cf291d;">Services</h4>
+                            <a href="assets/pages/sectors.html" class="dropdown-item">Education Sector</a>
+                            <a href="assets/pages/sectors.html" class="dropdown-item">Health Sector</a>
+                            <a href="assets/pages/sectors.html" class="dropdown-item">Financial Sector</a>
+                            <a href="assets/pages/sectors.html" class="dropdown-item">Energy Sector</a>
+                            <a href="assets/pages/sectors.html" class="dropdown-item">Corporate Sector</a>            
+                            <a href="assets/pages/sectors.html" class="dropdown-item">Law Enforcement Agencies</a>
+                        </div>
+                        <hr>
+                    </li>
+                    <li class="nav-item dropdown mr-4">
+                        <a class="nav-link dropdown-toggle" href="assets/pages/resources.html" id="resourcesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Community</a>
+                        <div class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                            <a class="dropdown-item" href="https://communitybeyondbeacon.wordpress.com">Research Blog</a>
+                            <a class="dropdown-item" href="assets/pages/resources.html">Whitepapers & Resources</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown mr-4">
+                        <a href="assets/pages/contactus.html" role="button" class="nav-link">Contact</a>
+                    </li>
+                </ul>
             </div>
-          </div>
-        </div>
-        <div class="col-md-3 ">
-          <div class="card div-card">
-            <div class="card-body">
-              <h5 class="card-title" style="color: black;"><b>APT-R: APT31</b></h5>
-              <p class="card-text"style="color: #131313;">Chinese Cyber Espionage Group - State-owned for Government & Military Purposes</p>
-              <a href="./assets/reports/APTR/Russia/APTR-RU-APT29.pdf" class="linkStyle">// Download Report</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 ">
-          <div class="card div-card">
-            <div class="card-body">
-              <h5 class="card-title" style="color: black;"><b>CTIA-R: DarkGate Campaign Adversary Report</b></h5>
-              <p class="card-text"style="color: #131313;">Chinese Cyber Espionage Group - State-owned for Government & Military Purposes</p>
-              <a href="./assets/reports/APTR/Russia/APTR-RU-APT29.pdf" class="linkStyle">// Download Report</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 ">
-          <div class="card div-card">
-            <div class="card-body" style="color:white;">
-              <h5 class="card-title">This is a transparent glassy background div</h5>
-              <p class="card-text">This div is 50% wide and 50% tall.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br>
-      <div class="row"> -->
-        <!-- First Column: Vector Illustrations (30% Width) -->
-        <!-- <div class="col-md-4">
-          <img src="./assets/backgrounds/Image-2.png" alt="Vector Illustration" class="img-fluid">
-        </div> -->
-        <!-- Second Column: Carousel Text & Button (70% Width) -->
-        <!-- <div class="col-md-8">
-          <div id="carouselExample" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <h3 class="carousel-header" style="color:white;">Discover Our Solutions</h3>
-                <p class="carousel-text" style="color:white;">Explore a wide range of security solutions tailored to your needs. From cyber defense to risk management, we've got you covered.</p>
-                <button class="custom-button">Learn More <i class="fa fa-arrow-right"> </i> </button>
-              </div>
-              <div class="carousel-item">
-                <h3 class="carousel-header" style="color:white;">Expert Security Team</h3>
-                <p class="carousel-text" style="color:white;">Our team of security specialists are on a mission to protect your assets and ensure business continuity. Trust us to safeguard your success.</p>
-                <button class="custom-button">Meet the Team <i class="fa fa-arrow-right"> </i> </button>
-              </div> -->
-              <!-- Add more carousel items as needed -->
-            <!-- </div>
-          </div>
-        </div>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-md-3 ">
-          <div class="card div-card">
-            <div class="card-body" style="color:white;">
-              <h5 class="card-title">This is a transparent glassy background div</h5>
-              <p class="card-text">This div is 50% wide and 50% tall.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 ">
-          <div class="card div-card">
-            <div class="card-body" style="color:white;">
-              <h5 class="card-title">This is a transparent glassy background div</h5>
-              <p class="card-text">This div is 50% wide and 50% tall.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 ">
-          <div class="card div-card">
-            <div class="card-body" style="color:white;">
-              <h5 class="card-title">This is a transparent glassy background div</h5>
-              <p class="card-text">This div is 50% wide and 50% tall.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 ">
-          <div class="card div-card">
-            <div class="card-body" style="color:white;">
-              <h5 class="card-title">This is a transparent glassy background div</h5>
-              <p class="card-text">This div is 50% wide and 50% tall.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-</div>
+        </nav>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script src="app.js"></script> 
-  <!-- This is your custom JavaScript file -->
+        <!-- Content Area -->
+        <div class="container content">
+            <div class="heading-container">
+            <h2 class="heading">Security Redefined: Pioneering Intelligence-Driven Cybersecurity</h2>
+            <p class="description">Harnessing intelligence to fortify digital realms, protect data, and ensure operational resilience</p>
+            <a href="assets/pages/pros-servs.html"><button class="custom-button" style="border-color: red; text-decoration: none;">Get Started<i class="fa fa-arrow-right"></i></button></a>
+            </div>
+        </div>
 
-</body>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="app.js"></script> 
+    </body>
 </html>
