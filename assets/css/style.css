@@ -173,5 +173,18 @@ font-family: 'Rubik', sans-serif;
   }
 
   .bg-rich-black {
-    background-color: black;
+    background-color: rgba(255,255,255,0.2)
+  }
+  .font-rich-black {
+    color:black;
+  }
+  .font-rich-white {
+    color:white;
+  }
+  .bg-rich-red {
+    background-color: #ff0000;
+  }
+
+  .carousel {
+    background-color: #f2f2f2;
   }
