@@ -1,1 +1,3 @@
-Beyond Beacon Corporation - CorpWebApp
+# Beyond Beacon Corporation
+
+### Official Website
